@@ -1,10 +1,10 @@
 import streamlit as st
 
 
-tab1, tab2, tab3 = st.tabs(["Gatto", "Cane", "Gufo"])
+tab1, tab2, tab3 = st.tabs(["Applicazione 1", "Applicazione 2", "Applicazione 3"])
 
 with tab1:
-    st.header("Questo è un gatto")
+    st.header("Questo è il tab dell'applicazione 1")
     st.title("Calcolatrice di prova 2")
 
     num1 = st.number_input("Primo numero")
