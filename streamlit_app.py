@@ -25,5 +25,5 @@ with tab1:
         except ZeroDivisionError:
             st.error("Errore: divisione per zero")
 
-    if st.button('Riproduci') and vocale.getvalue()!=null:
+    if st.button('Riproduci'):
         output = st.audio(vocale, format="audio/mpeg", loop=False)
