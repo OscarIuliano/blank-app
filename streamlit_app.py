@@ -2,18 +2,6 @@ import streamlit as st
 
 tab1, tab2, tab3 = st.tabs(["Applicazione 1", "Applicazione 2", "Applicazione 3"])
 
-st.markdown("""
-    <style>
-        .block-container {
-            padding: 0rem 1rem;
-            margin: 0;
-            max-width: 100%;
-        }
-    </style>
-""", unsafe_allow_html=True)
-
-
-
 with tab1:
     st.header("Questo è il tab dell'applicazione 1")
     st.title("Calcolatrice di prova 2")
