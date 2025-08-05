@@ -22,4 +22,4 @@ if st.button("Calcola"):
         st.error("Errore: divisione per zero")
 
 if st.button('Riproduci') :
-    output = st.audio(vocale, format="audio/mpeg", loop=True)
+    output = st.audio(vocale, format="audio/mpeg", loop=False)
