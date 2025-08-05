@@ -16,6 +16,6 @@ if st.button("Calcola"):
             risultato = num1 * num2
         elif operatore == "/":
             risultato = num1 / num2
-        st.success(f"Risultato: {risultato}")
+        st.success(f"Risultato operazione: {risultato}")
     except ZeroDivisionError:
         st.error("Errore: divisione per zero")
