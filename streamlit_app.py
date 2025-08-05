@@ -1,5 +1,8 @@
 import streamlit as st
 
+
+tab1, tab2, tab3 = st.tabs(["Gatto", "Cane", "Gufo"])
+
 st.title("Calcolatrice di prova 2")
 
 num1 = st.number_input("Primo numero")
