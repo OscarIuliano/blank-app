@@ -21,7 +21,7 @@ with tab1:
                 risultato = num1 * num2
             elif operatore == "/":
                 risultato = num1 / num2
-            st.success(f"Risultato operazione: {risultato}")
+            st.success("Risultato operazione: {risultato}")
         except ZeroDivisionError:
             st.error("Errore: divisione per zero")
 
