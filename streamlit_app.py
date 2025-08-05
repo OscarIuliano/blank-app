@@ -20,3 +20,6 @@ if st.button("Calcola"):
         st.success(f"Risultato operazione: {risultato}")
     except ZeroDivisionError:
         st.error("Errore: divisione per zero")
+
+if st.button('Riproduci') :
+    output = vocale.read()
