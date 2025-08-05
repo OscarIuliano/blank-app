@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title("Calcolatrice")
+st.title("Calcolatrice di prova")
 
 num1 = st.number_input("Primo numero")
 operatore = st.selectbox("Operazione", ["+", "-", "*", "/"])
